@@ -1,0 +1,14 @@
+## IDF Component Manager Manifest File
+dependencies:
+  ## Required IDF version
+  idf: '>=5.5.0'
+
+  lvgl/lvgl:
+    version: ^9.*
+    public: true
+
+  # Добавь эту строку:
+  # Возможно, также понадобится базовый компонент для тачскринов:
+  waveshare/esp_lcd_touch_cst9217: ^1.0.4
+  espressif/esp_lcd_co5300: ^2.0.3
+  espressif/esp_lvgl_adapter: ^0.1.1
